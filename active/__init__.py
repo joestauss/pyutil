@@ -7,7 +7,8 @@ __all__ = [
     "box_text",
 #    "qt",
     "parse",
-    "safe_soup"
+    "safe_soup",
+    "QuickTUI"
 ]
 
 import pyutil.active.parsers as parse
@@ -18,3 +19,4 @@ from .JSONDict import *
 from .SQLiteDB import *
 from .safe_soup import *
 from .box_text import *
+from .QuickTUI import QuickTUI
