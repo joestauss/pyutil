@@ -1,4 +1,4 @@
-from pyutil.active import SQLiteDB
+from pyutil.deprecated.SQLiteDB import SQLiteDB
 from pathlib     import Path
 from collections import namedtuple
 
